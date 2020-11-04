@@ -10,7 +10,8 @@ My personal Scrum setup.
 
 ## Table of Contents
 
-TODO
+- **[Definition of Ready (DoR)](#definition-of-ready-dor)**
+- **[Definition of Done (DoD)](#definition-of-done-dod)**
 
 <br><br><br>
 
@@ -25,15 +26,25 @@ to be included and worked upon in an upcoming sprint.
 
 - [ ] The backlog item has a concise title, ideally phrased using active verbs
 - [ ] A **user story** is written in its typical narrative-like form:<br>_**As** [kind of user] **I want** [some feature] **so that** [some benefit]_
-- [ ] A **bug** details expected state vs. actual state, and includes steps for / environment details about reproduction
-- [ ] The backlog item is assigned to an epic (context)
-- [ ] The backlog item defines a list of Acceptance Criteria (AC) that are testable and fully understood by the team - Acceptance Criteria may include technical details _(e.g. architecture decisions, specific UI requirements, library decision, ...)_ - Acceptance Criteria may include non-functional requirements _(e.g. about security, performance, configuration, observability, ...)_ - Acceptance Criteria may cover edge cases, error handling, loading states and further related areas
-- [ ] The team has a good idea about how to present the backlog item deliverables (e.g. in a Sprint Reviw), to the extend possible
+- [ ] A **bug** details expected state vs. actual state, and includes steps and environment details for reproduction purposes
+      <br>_(e.g. step-by-step turorial, OS and browser details, screenshots / videos)_
+- [ ] The backlog item is assigned to an epic, and optionally to a version
+- [ ] The backlog item defines a list of Acceptance Criteria (AC) that are testable and fully understood by the team
+  - [ ] Acceptance Criteria may include technical decisions
+        <br>_(e.g. architecture, specific UI requirements, library decision, major implementaion details ...)_
+  - [ ] Acceptance Criteria may include non-functional requirements
+        <br>_(e.g. security, performance, configuration, observability, ...)_
+  - [ ] Acceptance Criteria may also cover edge cases, error handling, loading states and further related things
+- [ ] The team has a good idea about how to present the backlog item deliverables, to the extend possible
+      <br>(e.g. Sprint Review, presentation to non-technical people such as management)
 - [ ] The backlog item has been discussed and estimated by the team, and the estimation is 8 points or lower
-- [ ] The backlog item is not blocked by another backlog item or external dependency, or the blocker gets resolved within the same Sprint
-- [ ] If applicable, the backlog item has assets attached to it _(e.g. screenshots, design mockups, documents)_
-- [ ] If applicable, the backlog item contains information regarding external dependencies _(e.g. links, documentation, other stories)_
-- [ ] If applicable, the backlog item contains information about external people taking part in that backlog item _(e.g. names, roles and contact information)_
+- [ ] The backlog item is not blocked by another backlog item or external dependency, or the blocker is assumed to be resolved within the same Sprint
+- [ ] If applicable, the backlog item has files attached to it
+      <br>_(e.g. screenshots, design mockups / wireframes, documents)_
+- [ ] If applicable, the backlog item contains information regarding external dependencies
+      <br>_(e.g. links, attached files, other stories)_
+- [ ] If applicable, the backlog item contains information about external people taking part in that backlog item
+      <br>_(e.g. name, role and contact information for each person)_
 
 <br>
 
@@ -118,11 +129,17 @@ product) can be considered fit for release / "done".
 ### Checklist
 
 - [ ] All Acceptance Criteria (AC) are met
+      <br>_(e.g. functional test is performed, no known defects exist, no regressions are introduced)_
 - [ ] The code is checked into Git, and is part of the main development branch
-- [ ] The code is tested, and tests get executed automatically in a CI / CD pipeline
-- [ ] The code follows agreed upon best practices and conventions
-- [ ] The code has been reviewed by at least one team member other than its creator (4 eye principle)
-- [ ] Documentation exists or has been updated (if applicable)
+      <br>_(e.g. all feature / bugfix branches are merged via PRs, stale branches are deleted)_
+- [ ] The code is tested, and tests are successfully executed in a CI / CD pipeline
+      <br>_(e.g. unit tests, integration tests, end-to-end tests, security tests)_
+- [ ] The code follows agreed upon best practices and conventions, and tests are successfully executed in a CI / CD pipeline
+      <br>_(e.g. linting rules, PR reviews)_
+- [ ] The code has been reviewed by at least one team member other than its creator (four-eyes principle)
+      <br>_(e.g. PR reviews, presentation to co-workers, pair-programing)_
+- [ ] If applicable, documentation exists and is up-to-date
+      <br>_(e.g. in-code / generated documentation, README file, Swagger documentation, Postman collection, Confluence page)_
 - [ ] If applicable, deliverables are deployed to the testing / staging environment
 - [ ] If applicable, follow-up backlog items are defined within the backlog
-- [ ] The Project Owner (PO) accepts the backlog item as "done"
+      <br>_(e.g. next iteration, performance enhancements, visual improcements, refactoring needs / technical debt)_
