@@ -8,13 +8,6 @@ My personal Scrum setup.
 
 <br><br>
 
-## Table of Contents
-
-- **[Definition of Ready (DoR)](#definition-of-ready-dor)**
-- **[Definition of Done (DoD)](#definition-of-done-dod)**
-
-<br><br><br>
-
 ## Definition of Ready (DoR)
 
 The Definition of Ready (DoR) describes the minimum set of criteria that must be fulfilled before a story is declared "good enough" / ready
