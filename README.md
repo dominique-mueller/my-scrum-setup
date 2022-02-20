@@ -68,3 +68,62 @@ product) can be considered fit for release / "done".
 - [ ] If applicable, deliverables are deployed to the testing / staging environment
 - [ ] If applicable, follow-up backlog items are created
       <br>_(e.g. next iteration, performance enhancements, visual improcements, refactoring needs / technical debt)_
+
+<br><br><br>
+
+## Template: User Story
+
+**As** a user<br>
+**I want** to have some feature<br>
+**so that** I have some benefit.
+
+<br>
+
+**Acceptance Criteria**
+
+- Criteria 1
+- Criteria 2
+- Criteria 3
+
+<br>
+
+**Notes**
+
+- Details 1
+- Details 2
+
+<br><br><br>
+
+## Template: Bug
+
+**Expected**
+
+When I ...
+
+<br>
+
+**Actual**
+
+When I ...
+
+<br>
+
+**Steps to reproduce**
+
+- Step 1
+- Step 2
+- Step 3
+
+<br>
+
+**Environment**
+
+- OS:
+- Browser:
+
+<br>
+
+**Notes**
+
+- Details 1
+- Details 2
